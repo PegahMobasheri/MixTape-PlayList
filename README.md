@@ -8,7 +8,7 @@ Includes full audio controls (*Play/Pause, **Next, **Previous, **Seekbar).
 # 🖼 Screenshot  
 ![Project Screenshot](https://github.com/user-attachments/assets/5bd51cab-fc7b-4d7e-8a44-2b36f5b101fd)
 
-![Project Screenshot](https://github.com/user-attachments/assets/5bd51cab-fc7b-4d7e-8a44-2b36f5b101fd)
+![Project Screenshot](https://github.com/user-attachments/assets/a6ec38fd-5898-405b-8569-451ef7cebfae)
 
 ![Project Screenshot](https://github.com/user-attachments/assets/5bd51cab-fc7b-4d7e-8a44-2b36f5b101fd)
 
