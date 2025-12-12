@@ -5,6 +5,11 @@ Includes full audio controls (*Play/Pause, **Next, **Previous, **Seekbar).
 
 ---
 
+# 🔴 Live demo
+(https://pegahmobasheri.github.io/MixTape-PlayList/)
+
+---
+
 # 🖼 Screenshot  
 ![Project Screenshot](https://github.com/user-attachments/assets/5bd51cab-fc7b-4d7e-8a44-2b36f5b101fd)
 
@@ -13,9 +18,6 @@ Includes full audio controls (*Play/Pause, **Next, **Previous, **Seekbar).
 ![Project Screenshot](https://github.com/user-attachments/assets/9a347ba5-99a6-4c22-9eb0-0da9a6a61764)
 
 ---
-
-# 🔴 Live demo
-(Replace the example embed with your real live URL)
 
 
 ## 🚀 Features
