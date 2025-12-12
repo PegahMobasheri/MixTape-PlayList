@@ -6,7 +6,11 @@ Includes full audio controls (*Play/Pause, **Next, **Previous, **Seekbar).
 ---
 
 # 🖼 Screenshot  
-![Project Screenshot](screenshots/screenshot-1.png)
+![Project Screenshot](https://github.com/user-attachments/assets/5bd51cab-fc7b-4d7e-8a44-2b36f5b101fd)
+
+![Project Screenshot](https://github.com/user-attachments/assets/5bd51cab-fc7b-4d7e-8a44-2b36f5b101fd)
+
+![Project Screenshot](https://github.com/user-attachments/assets/5bd51cab-fc7b-4d7e-8a44-2b36f5b101fd)
 
 ---
 
