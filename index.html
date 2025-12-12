@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet/main.css">
+    <title>Document</title>
+</head>
+
+<body class="w-full min-h-dvh bg-[#c04141] ">
+    <header
+        class="w-full h-16 flex justify-center items-center z-10 sticky top-0 bg-[#c04141] bd lg:h-20 3xl:container 3xl:mx-auto">
+        <div
+            class="w-7.5 h-7.5 bd1 flex justify-center items-center *:text-[18px] *:text-[#f0f0f0] me-1.5 lg:w-11.5 lg:h-11.5 lg:*:text-[28px] lg:me-2.5">
+            <i class="ri-rhythm-line"></i>
+        </div>
+        <h1 class="w-fit h-fit uppercase text-[25px] my-font text-[#f0f0f0] lg:text-[40px]">mixtape playlist</h1>
+
+    </header>
+    <!-- end header//  -->
+    <section class="w-full h-dvh lg:h-[155dvh] 3xl:container 3xl:mx-auto">
+        <!-- part 1//  -->
+        <div
+            class="w-full h-9 mt-2  flex justify-between items-center px-3 *:text-[16px] lg:h-10 lg:px-7 lg:mt-4 lg:*:text-[20px]">
+            <div class=" w-fit h-fit flex  items-center">
+                <h3 class="my-font2 capitalize text-[#f0f0f0] ">10 songs</h3>
+                <span class="w-1 h-1 rounded-[50%] bg-[#f0f0f0] mx-1.5 lg:mx-2.5"></span>
+                <h4 class="my-font2 text-[#f0f0f0] ">31 : 48</h4>
+            </div>
+            <!-- //////////////////////////  -->
+            <div class=" w-fit h-fit flex  items-center">
+                <h3 class="my-font2 capitalize text-[#f0f0f0] ">mixtape #1</h3>
+                <span class="w-1 h-1 rounded-[50%] bg-[#f0f0f0] mx-1.5 lg:mx-2.5"></span>
+                <h4 class="my-font2 text-[#f0f0f0] ">2025</h4>
+            </div>
+        </div>
+        <!-- prt 2///  -->
+        <div class="w-full h-fit">
+            <h2
+                class="w-fit h-fit text-[42px] uppercase font-bold  text-[#f0f0f0] my-font mx-auto my-7 md:text-[52px] lg:text-[120px] lg:my-10">
+                pop mixtape</h2>
+            <p
+                class="w-[90%] h-fit text-[17px] text-center text-[#f0f0f0] my-font2 mx-auto md:w-[65%] md:text-[20px] lg:w-[70%] lg:text-[35px] ">
+                A 10-episode playlist of modern Iranian pop-fresh, emotional, and easy to enjoy. Hope you love
+                listening!</p>
+            <figure class="w-55 h-45 mx-auto -rotate-10 duration-75 my-16 md:w-62.5  md:h-50 lg:w-xl lg:h-fit lg:my-26">
+                <img class="w-full h-full object-cover" src="assets/img/pop cover.webp" alt="">
+            </figure>
+        </div>
+    </section>
+    <!-- end section 1//  -->
+    <main class="w-full min-h-dvh flex justify-center items-center 3xl:container 3xl:mx-auto">
+        <div class="w-[85%] h-[80dvh]   ">
+            <div class="w-full h-2/5 bg-[#9f0000] rounded-t-2xl p-1 md:p-1.5 lg:p-2">
+                <!-- part1 //  -->
+                <div class="w-full h-2/5  flex items-center">
+                    <!-- 1//  -->
+                    <div
+                        class="w-7.5 h-7.5 bd1 flex justify-center items-center mx-2  *:text-[18px] *:text-[#f0f0f0] md:ms-5 md:me-3 lg:ms-10 lg:me-5 lg:w-11.5 lg:h-11.5 lg:*:text-[28px] ">
+                        <i class="ri-music-fill"></i>
+                    </div>
+                    <div id="showBoard" class="w-fit h-fit ">
+                        <h2 class="foont uppercase text-[#f0f0f0] text-[14px] lg:text-[20px]">ghashangtarin gonah</h2>
+                        <h3 class="foont capitalize text-[#f0f0f0df] text-[12px] lg:text-[16px]">shadmehr</h3>
+                    </div>
+                </div>
+                <div class="w-full h-1/5  ">
+                    <!-- mix 2 ,3 //  -->
+                    <div id="seekbar" class="w-[95%] h-1.5 bd2 mx-auto mt-4 md:mt-5 lg:mt-6">
+                        <div class="h-full w-[0%]  bg-[#f0f0f0] rounded-full "></div>
+                        <!-- 2//  -->
+                    </div>
+                    <div id="timeBoard"
+                        class="w-[90%] h-fit mx-auto foont flex justify-between mt-1 *:text-[#f0f0f0] *:text-[14px] lg:*:text-[18px] ">
+                        <!-- 3//  -->
+                        <h4>0:50</h4>
+                        <h5>3:17</h5>
+                    </div>
+                </div>
+                <div class="w-full h-2/5 ">
+                    <!-- 4/  -->
+                    <ul
+                        class="w-[90%] h-fit mx-auto flex justify-evenly **:text-[#f0f0f0] md:w-[60%] lg:w-[50%] *:cursor-pointer ">
+                        <li><i class="ri-equalizer-fill text-[14px] lg:text-[18px]"></i></li>
+                        <li id="prevv"><i class="ri-skip-back-fill text-[14px] lg:text-[18px]"></i></li>
+                        <li id="playy"
+                            class="bd1 w-7.5 h-7.5 flex justify-center items-center lg:w-11.5 lg:h-11.5 hover:scale-110 transition-all duration-100 ">
+                            <i class="ri-play-large-fill text-[12px] lg:text-[16px] "></i>
+                        </li>
+                        <li id="nextt"><i class="ri-skip-forward-fill text-[14px] lg:text-[18px]"></i></li>
+                        <li><i class="ri-repeat-2-fill text-[14px] lg:text-[18px]"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="list" class="w-full h-3/5 bg-[#800000] rounded-b-2xl overflow-y-auto p-2 md:p-4 lg:p-5">
+                <!-- part2//  -->
+                <nav class="w-full h-fit">
+                    <ul class="w-full h-fit">
+                        <li
+                            class="w-full h-fit flex  foont rounded-[5px] items-center p-1 relative md:p-1.5 lg:p-2 cursor-pointer lg:rounded-[10px] hover:bg-[#610000]">
+                            <figure
+                                class="w-12.5 h-12.5 p-0.5 rounded-[50%] me-2 md:me-3 md:ms-1 lg:w-17.5 lg:h-17.5 lg:mx-4">
+                                <img class="w-full h-full rounded-[50%] object-cover" src="assets/img/6.shadmehr.webp"
+                                    alt="">
+                            </figure>
+                            <div>
+                                <audio class="hidden"
+                                    src="assets/audio/Shadmehr Aghili - Ghashangtarin Gonah.mp3"></audio>
+                                <h4 class="capitalize text-[#f0f0f0] text-[14px] lg:text-[20px]">ghashangtarin gonah
+                                </h4>
+                                <h5 class="capitalize text-[#f0f0f0b1] text-[12px] lg:text-[16px]">shadmehr</h5>
+                            </div>
+                            <span
+                                class="text-[#f0f0f0] text-[14px] hidden md:flex md:absolute md:right-4 lg:text-[18px] lg:right-8">3:17</span>
+                        </li>
+                        <li
+                            class="w-full h-fit flex  foont rounded-[5px] items-center p-1 relative md:p-1.5 lg:p-2 cursor-pointer lg:rounded-[10px] hover:bg-[#610000]">
+                            <figure
+                                class="w-12.5 h-12.5 p-0.5 rounded-[50%] me-2 md:me-3 md:ms-1 lg:w-17.5 lg:h-17.5 lg:mx-4">
+                                <img class="w-full h-full rounded-[50%] object-cover" src="assets/img/4.yegane.webp"
+                                    alt="">
+                            </figure>
+                            <div>
+                                <audio class="hidden" src="assets/audio/Mohsen Yeganeh _ Taghvime Mochale.mp3"></audio>
+                                <h4 class="capitalize text-[#f0f0f0] text-[14px] lg:text-[20px]">taghvime mochale</h4>
+                                <h5 class="capitalize text-[#f0f0f0b1] text-[12px] lg:text-[16px]">mohsen yeganeh</h5>
+                            </div>
+                            <span
+                                class="text-[#f0f0f0] text-[14px] hidden md:flex md:absolute md:right-4 lg:text-[18px] lg:right-8">3:50</span>
+                        </li>
+                        <li
+                            class="w-full h-fit flex  foont rounded-[5px] items-center p-1 relative md:p-1.5 lg:p-2 cursor-pointer lg:rounded-[10px] hover:bg-[#610000]">
+                            <figure
+                                class="w-12.5 h-12.5 p-0.5 rounded-[50%] me-2 md:me-3 md:ms-1 lg:w-17.5 lg:h-17.5 lg:mx-4">
+                                <img class="w-full h-full rounded-[50%] object-cover" src="assets/img/8.sirvan.webp"
+                                    alt="">
+                            </figure>
+                            <div>
+                                <audio class="hidden" src="assets/audio/Sirvan Khosravi - Bargaye Narenji.mp3"></audio>
+                                <h4 class="capitalize text-[#f0f0f0] text-[14px] lg:text-[20px]">bargaye narenji</h4>
+                                <h5 class="capitalize text-[#f0f0f0b1] text-[12px] lg:text-[16px]">sirvan khosravi</h5>
+                            </div>
+                            <span
+                                class="text-[#f0f0f0] text-[14px] hidden md:flex md:absolute md:right-4 lg:text-[18px] lg:right-8">3:46</span>
+                        </li>
+                        <li
+                            class="w-full h-fit flex  foont rounded-[5px] items-center p-1 relative md:p-1.5 lg:p-2 cursor-pointer lg:rounded-[10px] hover:bg-[#610000]">
+                            <figure
+                                class="w-12.5 h-12.5 p-0.5 rounded-[50%] me-2 md:me-3 md:ms-1 lg:w-17.5 lg:h-17.5 lg:mx-4">
+                                <img class="w-full h-full rounded-[50%] object-cover"
+                                    src="assets/img/3.erfan tahmasebi.webp" alt="">
+                            </figure>
+                            <div>
+                                <audio class="hidden" src="assets/audio/Erfan Tahmasbi - Emshab.mp3"></audio>
+                                <h4 class="capitalize text-[#f0f0f0] text-[14px] lg:text-[20px]">emshab</h4>
+                                <h5 class="capitalize text-[#f0f0f0b1] text-[12px] lg:text-[16px]">erfan tahmasbi</h5>
+                            </div>
+                            <span
+                                class="text-[#f0f0f0] text-[14px] hidden md:flex md:absolute md:right-4 lg:text-[18px] lg:right-8">3:04</span>
+                        </li>
+                        <li
+                            class="w-full h-fit flex  foont rounded-[5px] items-center p-1 relative md:p-1.5 lg:p-2 cursor-pointer lg:rounded-[10px] hover:bg-[#610000]">
+                            <figure
+                                class="w-12.5 h-12.5 p-0.5 rounded-[50%] me-2 md:me-3 md:ms-1 lg:w-17.5 lg:h-17.5 lg:mx-4">
+                                <img class="w-full h-full rounded-[50%] object-cover"
+                                    src="assets/img/2.yasin torki.webp" alt="">
+                            </figure>
+                            <div>
+                                <audio class="hidden" src="assets/audio/Yasin Torki – Khaste Konandeh.mp3"></audio>
+                                <h4 class="capitalize text-[#f0f0f0] text-[14px] lg:text-[20px]">khaste konande</h4>
+                                <h5 class="capitalize text-[#f0f0f0b1] text-[12px] lg:text-[16px]">yasin torki</h5>
+                            </div>
+                            <span
+                                class="text-[#f0f0f0] text-[14px] hidden md:flex md:absolute md:right-4 lg:text-[18px] lg:right-8">3:39</span>
+                        </li>
+                        <li
+                            class="w-full h-fit flex  foont rounded-[5px] items-center p-1 relative md:p-1.5 lg:p-2 cursor-pointer lg:rounded-[10px] hover:bg-[#610000]">
+                            <figure
+                                class="w-12.5 h-12.5 p-0.5 rounded-[50%] me-2 md:me-3 md:ms-1 lg:w-17.5 lg:h-17.5 lg:mx-4">
+                                <img class="w-full h-full rounded-[50%] object-cover" src="assets/img/ashvan-1.webp"
+                                    alt="">
+                            </figure>
+                            <div>
+                                <audio class="hidden" src="assets/audio/Ashvan - Delam Tange.mp3"></audio>
+                                <h4 class="capitalize text-[#f0f0f0] text-[14px] lg:text-[20px]">delam tange</h4>
+                                <h5 class="capitalize text-[#f0f0f0b1] text-[12px] lg:text-[16px]">ashvan</h5>
+                            </div>
+                            <span
+                                class="text-[#f0f0f0] text-[14px] hidden md:flex md:absolute md:right-4 lg:text-[18px] lg:right-8">3:07</span>
+                        </li>
+                        <li
+                            class="w-full h-fit flex  foont rounded-[5px] items-center p-1 relative md:p-1.5 lg:p-2 cursor-pointer lg:rounded-[10px] hover:bg-[#610000]">
+                            <figure
+                                class="w-12.5 h-12.5 p-0.5 rounded-[50%] me-2 md:me-3 md:ms-1 lg:w-17.5 lg:h-17.5 lg:mx-4">
+                                <img class="w-full h-full rounded-[50%] object-cover" src="assets/img/7.golab.webp"
+                                    alt="">
+                            </figure>
+                            <div>
+                                <audio class="hidden" src="assets/audio/AmirAbbas Golab - Man Az Dah.mp3"></audio>
+                                <h4 class="capitalize text-[#f0f0f0] text-[14px] lg:text-[20px]">man az dah</h4>
+                                <h5 class="capitalize text-[#f0f0f0b1] text-[12px] lg:text-[16px]">amir abas golab</h5>
+                            </div>
+                            <span
+                                class="text-[#f0f0f0] text-[14px] hidden md:flex md:absolute md:right-4 lg:text-[18px] lg:right-8">0:51</span>
+                        </li>
+                        <li
+                            class="w-full h-fit flex  foont rounded-[5px] items-center p-1 relative md:p-1.5 lg:p-2 cursor-pointer lg:rounded-[10px] hover:bg-[#610000]">
+                            <figure
+                                class="w-12.5 h-12.5 p-0.5 rounded-[50%] me-2 md:me-3 md:ms-1 lg:w-17.5 lg:h-17.5 lg:mx-4">
+                                <img class="w-full h-full rounded-[50%] object-cover" src="assets/img/5.zaniyar.webp"
+                                    alt="">
+                            </figure>
+                            <div>
+                                <audio class="hidden" src="assets/audio/Xaniar Khosravi - Nemidooni.mp3"></audio>
+                                <h4 class="capitalize text-[#f0f0f0] text-[14px] lg:text-[20px]">nemidooni</h4>
+                                <h5 class="capitalize text-[#f0f0f0b1] text-[12px] lg:text-[16px]">xaniar khosravi</h5>
+                            </div>
+                            <span
+                                class="text-[#f0f0f0] text-[14px] hidden md:flex md:absolute md:right-4 lg:text-[18px] lg:right-8">4:35</span>
+                        </li>
+                        <li
+                            class="w-full h-fit flex  foont rounded-[5px] items-center p-1 relative md:p-1.5 lg:p-2 cursor-pointer lg:rounded-[10px] hover:bg-[#610000]">
+                            <figure
+                                class="w-12.5 h-12.5 p-0.5 rounded-[50%] me-2 md:me-3 md:ms-1 lg:w-17.5 lg:h-17.5 lg:mx-4">
+                                <img class="w-full h-full rounded-[50%] object-cover" src="assets/img/9.eshraghi.webp"
+                                    alt="">
+                            </figure>
+                            <div>
+                                <audio class="hidden"
+                                    src="assets/audio/Shayan Eshraghi-In Dafe gerye nadarim.mp3"></audio>
+                                <h4 class="capitalize text-[#f0f0f0] text-[14px] lg:text-[20px]">in dafe gerye nadarim
+                                </h4>
+                                <h5 class="capitalize text-[#f0f0f0b1] text-[12px] lg:text-[16px]">shayan eshraghi</h5>
+                            </div>
+                            <span
+                                class="text-[#f0f0f0] text-[14px] hidden md:flex md:absolute md:right-4 lg:text-[18px] lg:right-8">3:52</span>
+
+                        </li>
+                        <li
+                            class="w-full h-fit flex  foont rounded-[5px] items-center p-1 relative md:p-1.5 lg:p-2 cursor-pointer lg:rounded-[10px] hover:bg-[#610000]">
+                            <figure
+                                class="w-12.5 h-12.5 p-0.5 rounded-[50%] me-2 md:me-3 md:ms-1 lg:w-17.5 lg:h-17.5 lg:mx-4">
+                                <img class="w-full h-full rounded-[50%] object-cover" src="assets/img/10.jahani.webp"
+                                    alt="">
+                            </figure>
+                            <div>
+                                <audio class="hidden" src="assets/audio/Mehdi Jahani - Daste Man Nist.mp3"></audio>
+                                <h4 class="capitalize text-[#f0f0f0] text-[14px] lg:text-[20px]">daste man nist</h4>
+                                <h5 class="capitalize text-[#f0f0f0b1] text-[12px] lg:text-[16px]">mehdi jahani</h5>
+                            </div>
+                            <span
+                                class="text-[#f0f0f0] text-[14px] hidden md:flex md:absolute md:right-4 lg:text-[18px] lg:right-8">3:45</span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </main>
+    <!-- end main//  -->
+    <footer class="w-full h-55 bd3 flex justify-center items-center lg:h-62.5 3xl:container 3xl:mx-auto ">
+        <div class="w-[80%] h-45  flex justify-center items-center gap-5 lg:gap-10">
+            <figure class=" w-fit h-fit ">
+                <img class="w-25 h-25 object-cover myphoto lg:w-37.5 lg:h-37.5" src="assets/img/orangeme.crop.jpg"
+                    alt="">
+                <figcaption class="my-font uppercase text-[#f0f0f0] mt-2 text-[16px] md:text-[18px] lg:text-[22px]">
+                    pegah mobasheri</figcaption>
+            </figure>
+            <nav class="w-fit h-fit">
+                <ul
+                    class="w-fit h-fit my-font  **:uppercase **:text-[#f0f0f0] **:text-[16px] md:**:text-[18px] lg:**:text-[22px]">
+                    <li><a href="https://www.instagram.com/pegahmobasherii"><i
+                                class="ri-instagram-fill me-2 lg:me-3"></i>instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/pegah-mobasheri"><i
+                                class="ri-linkedin-box-fill me-2 lg:me-3"></i>linkedin</a></li>
+                    <li><a href="https://github.com/PegahMobasheri"><i
+                                class="ri-github-fill me-2 lg:me-3"></i>github</a></li>
+                    <li><a href="pegah.mobasheri222@gmail.com"><i class="ri-mail-fill me-2 lg:me-3"></i>email</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </footer>
+
+</body>
+<script>
+    // musics// 
+    let items = document.querySelectorAll("#list>nav>ul>li")
+    // showboard// 
+    let titleTop = document.querySelector("#showBoard>h2")
+    let artistTop = document.querySelector("#showBoard>h3")
+    // times// 
+    let timeNow = document.querySelector("#timeBoard>h4")
+    let timeTotal = document.querySelector("#timeBoard>h5")
+
+    // buttons// 
+    let btnPlay = document.getElementById("playy")
+    let btnNext = document.getElementById("nextt")
+    let btnPrev = document.getElementById('prevv')
+
+    // seekbar// 
+    let seekBar = document.querySelector("#seekbar>div")
+    let seekBox = document.getElementById("seekbar")
+    ////////////////////////////
+    let currentAudio = null
+    let currentItem = null
+
+
+
+
+
+    // turn minute to second// 
+    function formatTime(t) {
+        let minute = Math.floor(t / 60)
+        let second = Math.floor(t % 60)
+        if (second < 10) { second = "0" + second }
+        return minute + ":" + second
+    }
+    // turn minute to second// 
+
+    // play music// 
+    items.forEach((item) => {
+        item.addEventListener("click", function () {
+            playItem(item)
+        })
+    })
+    // play music// 
+
+    // playing music// 
+    function playItem(item) {
+        let audio = item.querySelector("audio")
+
+        if (currentAudio !== null) {
+            if (currentAudio !== audio) {
+                currentAudio.pause()
+                currentAudio.currentTime = 0
+            }
+        }
+        audio.play()
+        currentAudio = audio
+        currentItem = item
+        // times// 
+        titleTop.textContent = item.querySelector("h4").textContent
+        artistTop.textContent = item.querySelector("h5").textContent
+
+
+
+        let interval = setInterval(() => {
+
+            if (!audio.paused) {
+                timeNow.textContent = formatTime(audio.currentTime)
+
+                seekBar.style.width = (audio.currentTime / audio.duration * 100) + "%"
+
+                if (audio.duration > 0) {
+                    timeTotal.textContent = formatTime(audio.duration)
+                }
+            }
+
+            if (audio.currentTime >= audio.duration) {
+                clearInterval(interval)
+                goNext()
+            }
+
+        }, 200)
+    }
+    // playing music// 
+
+
+    // go tp next music// 
+    function goNext() {
+        if (currentItem) {
+            let next = currentItem.nextElementSibling
+            if (next) {
+                playItem(next)
+            }
+        }
+    }
+
+    // go tp next music//
+
+
+    // go to prev// 
+    function goPrev() {
+        if (currentItem) {
+            let prev = currentItem.previousElementSibling
+            if (prev) {
+                playItem(prev)
+            }
+        }
+    }
+
+    // go to prev// 
+
+
+
+
+
+    // play btn// 
+    btnPlay.addEventListener("click", function () {
+
+        if (!currentAudio) {
+            playItem(items[0])
+        } else {
+            if (currentAudio.paused) {
+                currentAudio.play()
+            } else {
+
+                currentAudio.pause()
+            }
+        }
+    })
+    // play btn// 
+
+
+    // next & prev btns// 
+    btnNext.addEventListener("click", goNext)
+    btnPrev.addEventListener("click", goPrev)
+
+
+    // seekbar// 
+
+    seekBox.addEventListener("click", (e) => {
+        if (currentAudio) {
+            let box = seekBox.getBoundingClientRect()
+            let click = e.clientX - box.left
+            let percent = click / box.width
+            currentAudio.currentTime = currentAudio.duration * percent
+            seekBar.style.width = (percent * 100) + "%"
+        }
+    })
+</script>
+
+</html>
